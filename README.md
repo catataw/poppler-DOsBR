@@ -75,7 +75,7 @@ details on some of the pertinent environment variables.
 by setting variables in the command line or in the environment.  Here
 is an example:
 
-     `./configure CC=c89 CFLAGS=-O2 LIBS=-lposix`
+     ./configure CC=c89 CFLAGS=-O2 LIBS=-lposix
 
    *Note Defining Variables::, for more details.
 
@@ -141,11 +141,11 @@ message saying it cannot guess the machine type, give it the
 `--build=TYPE` option.  TYPE can either be a short name for the system
 type, such as `sun4`, or a canonical name which has the form:
 
-     `CPU-COMPANY-SYSTEM`
+     CPU-COMPANY-SYSTEM
 
 where SYSTEM can have one of these forms:
 
-     `OS KERNEL-OS`
+     OS KERNEL-OS
 
    See the file `config.sub` for the possible values of each field.  If
 `config.sub` isn't included in this package, then this package doesn't
@@ -178,12 +178,12 @@ configure again during the build, and the customized values of these
 variables may be lost.  In order to avoid this problem, you should set
 them in the `configure` command line, using `VAR=value`.  For example:
 
-     `./configure CC=/usr/local2/bin/gcc`
+     ./configure CC=/usr/local2/bin/gcc
 
 causes the specified `gcc` to be used as the C compiler (unless it is
 overridden in the site shell script).  Here is a another example:
 
-     `/bin/bash ./configure CONFIG_SHELL=/bin/bash`
+     /bin/bash ./configure CONFIG_SHELL=/bin/bash
 
 Here the `CONFIG_SHELL=/bin/bash` operand causes subsequent
 configuration-related scripts to be executed by `/bin/bash`.
