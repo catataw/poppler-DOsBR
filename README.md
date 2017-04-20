@@ -115,7 +115,7 @@ you can set and what kinds of files go in them.
 
    If the package supports it, you can cause programs to be installed
 with an extra prefix or suffix on their names by giving `configure` the
-option `--program-prefix=PREFIX' or `--program-suffix=SUFFIX'.
+option `--program-prefix=PREFIX` or `--program-suffix=SUFFIX`.
 
 ## Optional Features
 
